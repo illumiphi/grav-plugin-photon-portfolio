@@ -86,13 +86,13 @@ class PhotonPortfolioPlugin extends Plugin
         // styles
         if ($this->config->get('plugins.photon-portfolio.built_in_css')) {
           $css = 'plugin://photon-portfolio/assets/portfolio.css';
-          $assets->addCss($css);
+          $assets->addCss($css, 100, false, 'photon-plugins' );
         }
 
         // scripts
         if ($this->config->get('plugins.photon-portfolio.built_in_js')) {
           $js = 'plugin://photon-portfolio/assets/portfolio.js';
-          $assets->addJs($js);
+          $assets->addJs($js, 100, false, 'defer', 'photon-plugins' );
         }
 
 
