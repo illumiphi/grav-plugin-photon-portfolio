@@ -6,10 +6,10 @@ author:
   name: phi ARCHITECT
   email: phi@photon-platform.net
 homepage: https://github.com/photon-platform/grav-plugin-photon-portfolio
+docs: https://github.com/photon-platform/grav-plugin-photon-portfolio/blob/develop/README.md
+bugs: https://github.com/photon-platform/grav-plugin-photon-portfolio/issues
 demo: https://photon-platform.net
 keywords: datatype, photon
-bugs: https://github.com/photon-platform/grav-plugin-photon-portfolio/issues
-docs: https://github.com/photon-platform/grav-plugin-photon-portfolio/blob/develop/README.md
 license: MIT
 
 dependencies:
